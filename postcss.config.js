@@ -1,6 +1,6 @@
 export default {
       plugins: {
-        tailwindcss: {},
+        '@tailwindcss/postcss': {}, // <-- This line is changed
         autoprefixer: {},
       },
     }
